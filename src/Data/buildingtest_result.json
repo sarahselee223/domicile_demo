@@ -1,0 +1,15 @@
+[
+  {"marina":[
+    {"name":"unit1","roomtype":"studio","price":100},
+    {"name":"unit3","roomtype":"onebed","price":250},
+  ]},
+  {"chroma":[
+    {"name":"unit1","roomtype":"studio","price":90},
+    {"name":"unit3","roomtype":"onebed","price":200},
+  ]},
+  {"helios":[
+    {"name":"unit21","roomtype":"twobed","price":210},
+    {"name":"unit31","roomtype":"onebed","price":200},
+    {"name":"unit62","roomtype":"studio","price":90},
+  ]}
+]

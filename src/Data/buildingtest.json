@@ -1,0 +1,24 @@
+[
+  {"marina":[
+    {"name":"unit1","roomtype":"studio","price":100},
+    {"name":"unit2","roomtype":"studio","price":200},
+    {"name":"unit3","roomtype":"onebed","price":250},
+    {"name":"unit4","roomtype":"onebed","price":275}
+  ]},
+  {"chroma":[
+    {"name":"unit1","roomtype":"studio","price":90},
+    {"name":"unit2","roomtype":"studio","price":110},
+    {"name":"unit3","roomtype":"onebed","price":200},
+    {"name":"unit4","roomtype":"onebed","price":225},
+    {"name":"unit5","roomtype":"onebed","price":250}
+  ]},
+  {"helios":[
+    {"name":"unit11","roomtype":"twobed","price":290},
+    {"name":"unit21","roomtype":"twobed","price":210},
+    {"name":"unit31","roomtype":"onebed","price":200},
+    {"name":"unit41","roomtype":"onebed","price":225},
+    {"name":"unit51","roomtype":"onebed","price":250},
+    {"name":"unit62","roomtype":"studio","price":90},
+    {"name":"unit72","roomtype":"studio","price":110}
+  ]}
+]
