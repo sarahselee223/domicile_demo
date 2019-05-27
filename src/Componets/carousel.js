@@ -9,7 +9,7 @@ import videoImage from '../Images/videoImage.png'
 const CarouselItem = () => {
     return (
         <div>
-            <Carousel showArrows={true} className='carouselContainer' infiniteLoop>
+            <Carousel showArrows={true} autoPlay={true} stopOnHover={true} showThums={true} className='carouselContainer' infiniteLoop={true}>
                 <div>
                     <img src={chroma} alt="chroma" />
                 </div>
