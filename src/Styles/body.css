@@ -1,0 +1,22 @@
+.App-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f4f5;
+}
+.carouselContainer {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.embedContainer iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.videoSlide img {
+    visibility: hidden;
+}
