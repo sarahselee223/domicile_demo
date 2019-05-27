@@ -4,7 +4,7 @@
   margin: 0;
   background-color: #393d4a;
 }
-
+/* header start */
 .App-header {
   display: flex;
   flex-direction: row;
@@ -37,3 +37,41 @@
   margin-left: 3%;
   font-size: calc(4px + 2vmin);
 }
+/* header end */
+/* body start */
+/* body end */
+/* footer start */
+.App-footer {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: flex-start;
+  padding: 5%;
+  text-align: left;
+}
+.footerLogoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 5;
+  font-size: 12px;
+  padding: 2%;
+  margin-right: 5%;
+}
+.footerContentContainer {
+  display: flex;
+  justify-content: flex-end;
+  flex: 5;
+  padding: 2%;
+  margin-top: 3%;
+}
+.footerTitle {
+  font-size: calc(4px + 2vmin);
+}
+.footerContent {
+  font-size: 12px;
+}
+.footerContactContainer, .footerPropertyContainer, .footerFollowContainer {
+  padding: 2%;
+}
+/* footer end */
