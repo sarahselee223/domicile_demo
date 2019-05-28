@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import buildingList from './Data/buildingtest.json'
 import buildingListResult from './Data/buildingtest_result.json'
-const cheapestRoom = require("./Componets/buildingList")
+const cheapestRoom = require("./Components/buildingList")
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
