@@ -1,4 +1,4 @@
-.App-body {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,6 +9,18 @@
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
+}
+.roomListContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #393d4a;
+    padding: 5%;
+}
+.titleContainer {
+    font-size: calc(25px + 2vmin);
 }
 .embedContainer iframe {
     position:absolute;
@@ -27,3 +39,26 @@
 .videoSlide img {
     visibility: hidden;
 }
+.buttonStyle {
+    width: 200px;
+    height: 100%;
+    padding: 5%;
+    font-size: calc(3px + 2vmin);
+}
+.tableContainer {
+    margin: 3%;
+    overflow:auto;
+}
+table {
+    margin: auto;
+    width: 500px
+  }
+.tableTr {
+    padding: 5%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 2%;
+  }
+  

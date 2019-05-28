@@ -8,7 +8,7 @@ import videoImage from '../Images/videoImage.png'
 
 const CarouselItem = () => {
     return (
-        <div>
+        <div className="container">
             <Carousel showArrows={true} autoPlay={true} stopOnHover={true} showThums={true} className='carouselContainer' infiniteLoop={true}>
                 <div>
                     <img src={chroma} alt="chroma" />
@@ -21,7 +21,7 @@ const CarouselItem = () => {
                 </div>
                 <div className="videoSlide">
                     <div className="embedContainer">
-                        <iframe src="https://player.vimeo.com/video/236833535" frameborder="0" title="domicileExperience" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <iframe src="https://player.vimeo.com/video/236833535" frameBorder="0" title="domicileExperience"></iframe>
                     </div>
                     <img src={videoImage} alt="videoImage" />
                 </div>
