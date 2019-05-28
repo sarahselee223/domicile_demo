@@ -1,17 +1,18 @@
-import React from 'react';
-import './Styles/app.css';
+/* eslint-disable no-unused-vars */
+import React from 'react'
+import './Styles/app.css'
 import Header from './Components/header'
 import Footer from './Components/footer'
 import Body from './Components/body'
 
-function App() {
+function App () {
   return (
     <div className="App">
       <Header />
       <Body />
       <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
