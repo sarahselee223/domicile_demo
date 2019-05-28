@@ -1,11 +1,8 @@
-import buildingList from '../Data/buildingtest.json'
-
 //  * Get the cheapest rooms of each room type for each building.
-//  *
 //  * @param {array} buildingList - An array of building objects
 //  * @return {array} array of building objects containing only the cheapest room of each type of room.
 
-function getCheapestRooms () {
+export function getCheapestRooms (buildingList) {
   return buildingList.map(building => getBuildingMap(Object.keys(building), Object.values(building)))
 }
 
@@ -22,7 +19,3 @@ function getBuildingMap ([buildingName], [rooms]) {
   }
   return { [buildingName]: Object.values(roomTypeToCheapestRoomMap) }
 }
-
-const cheapestRoom = getCheapestRooms()
-
-module.exports = cheapestRoom

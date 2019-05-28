@@ -1,6 +1,6 @@
-# My Portfolio
+# Domicile Demo
 
-Single page demo web application to display pictures and video in carousel. 
+Single page demo web application to display pictures and video in carousel and to get cheapest rooms for each building's room type.
 
 ## Start Developing 
 
